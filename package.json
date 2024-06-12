@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@scalar/themes": "^0.8.2",
     "vue": "^3.4.21"
   },
   "devDependencies": {

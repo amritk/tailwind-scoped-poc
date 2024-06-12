@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@scalar/themes':
+        specifier: ^0.8.2
+        version: 0.8.2(vue@3.4.27(typescript@5.4.5))
       vue:
         specifier: ^3.4.21
         version: 3.4.27(typescript@5.4.5)
@@ -318,6 +321,12 @@ packages:
     resolution: {integrity: sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==}
     cpu: [x64]
     os: [win32]
+
+  '@scalar/themes@0.8.2':
+    resolution: {integrity: sha512-V4ZqRrMAswC0No1V/NAUpor+sSUs+RtB2NW+s8Wt0NfCPYop/sReAw5YiwSJrf1znXE04oA6g6Q3LZa7fOSsyQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      vue: ^3.3.0
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1072,6 +1081,10 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
+
+  '@scalar/themes@0.8.2(vue@3.4.27(typescript@5.4.5))':
+    dependencies:
+      vue: 3.4.27(typescript@5.4.5)
 
   '@types/estree@1.0.5': {}
 

@@ -12,7 +12,7 @@ export default {
   plugins: [
     // ...
     scopedPreflightStyles({
-      isolationStrategy: isolateInsideOfContainer(".scoped"),
+      isolationStrategy: isolateInsideOfContainer(".scalar-base"),
     }),
   ],
 };

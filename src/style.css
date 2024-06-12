@@ -1,6 +1,31 @@
+@import '@scalar/themes/base.css';
+@import '@scalar/themes/base.css';
+@import '@scalar/themes/presets/default.css';
+@import '@scalar/themes/fonts.css';
+@import '@scalar/themes/scrollbars.css';
+
 @tailwind base;
 
-.scoped {
+.scalar-base {
   @tailwind components;
   @tailwind utilities;
+  
+  /** Custom utilities to make life easier */
+  @layer utilities {
+    .row {
+      @apply flex flex-row;
+    }
+    .row-1 {
+      @apply flex flex-1 flex-row;
+    }
+    .col {
+      @apply flex flex-col;
+    }
+    .col-1 {
+      @apply flex flex-1 flex-col;
+    }
+    .center {
+      @apply items-center justify-center;
+    }
+  }
 }
