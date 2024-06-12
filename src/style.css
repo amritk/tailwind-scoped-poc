@@ -1,0 +1,6 @@
+@tailwind base;
+
+.scoped {
+  @tailwind components;
+  @tailwind utilities;
+}
