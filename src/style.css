@@ -8,6 +8,7 @@
 .scalar-base {
   @tailwind components;
   @tailwind utilities;
+  @tailwind variants;
   
   /** Custom utilities to make life easier */
   @layer utilities {

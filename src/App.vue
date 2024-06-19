@@ -4,6 +4,6 @@
   <div class="mt-8">Does this have anything</div>
   <div class="scalar-base">
     <div class="mt-10 p-10">This should have it all</div>
-    <div class="row-1">Stuff</div>
+    <div class="hidden lg:flex">testing responsiveness</div>
   </div>
 </template>
